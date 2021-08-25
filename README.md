@@ -1,2 +1,2 @@
 # kalkulator
-nauka kalkulator
+nauka git pisanie kalkulatora
