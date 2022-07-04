@@ -4,10 +4,10 @@
 
 class Kalkulator:
 
-  def Add(x, y)
+  def Add(self, x, y):
     return x + y
     
-  def Minus(x, y, r=false)
+  def Minus(self, x, y, r=False):
     if r: 
       return y - x
     else:
@@ -16,22 +16,23 @@ class Kalkulator:
 
 def main():
   
-  kal = Klakulator()
-  print("Podaj liczbę X:)
+  kal = Kalkulator()
+  print("Podaj liczbę X:", end='')
   x = int(input())
-  print("podaj liczbę Y:)
+  print("podaj liczbę Y:", end='')
   y = int(input())
   print("Wybierz działanie:")
   print("[1] X + Y")
   print("[2] X - Y")
   print("[3] Y - X")
+  print(":", end='')
   odp = input()
-  if odp = "1":
-    print(kal.Add(x,y)
-  elif odp = "2":
-    print(kal.Minux(x,y)
-  elif odp = "3":
-    print(kal.Minus(x,y,True)
+  if odp == "1":
+    print("Wynik:", kal.Add(x,y))
+  elif odp == "2":
+    print("Wynik:", kal.Minus(x,y))
+  elif odp == "3":
+    print("Wynik:", kal.Minus(x,y,True))
   else:
     print("Nie wskazano poprawnie działania")
     
