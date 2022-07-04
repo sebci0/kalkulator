@@ -1,2 +1,2 @@
 # kalkulator
-nauka git pisanie kalkulatora
+nauka git przez pisanie kalkulatora w pythonie
